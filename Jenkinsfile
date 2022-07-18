@@ -12,10 +12,5 @@ steps{
 sh "mvn clean package"
 }
 }
-        stage("maven complie"){
-steps{
-sh "mvn complie"
-}
-        }
     }
 }
