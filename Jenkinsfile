@@ -4,8 +4,7 @@ pipeline{
         stage("git checkout")
         {
             steps{
-                    //old jenkins version used git 'https://github.com/tinkusaini13/ci-cd-with-maven.git' 
-                    git url: 'https://github.com/tinkusaini13/ci-cd-with-maven.git', branch: 'main'
+                    git url: 'https://github.com/akhilesh-007/mavepro.git', branch: 'main'
                  }
           }
 stage("maven build"){
